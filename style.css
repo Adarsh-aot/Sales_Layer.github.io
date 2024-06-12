@@ -1,0 +1,255 @@
+body{
+    width: Fixed (1,440px)px;
+    height: Hug (4,597px)px;
+    top: -151px;
+    left: -205px;
+    padding: 0px 80px 0px 80px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.nav-stat , .nav-end {
+    display : flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+.nav-start.li{
+    justify-content: flex-start;
+    margin-left:10px;
+    padding: 100px;
+}
+
+.nav-list{
+    padding:10px;
+    color:black;
+    font-size: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.nav-a{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-signup{
+    
+    width: 82pxpx;
+    height: 36pxpx;
+    padding: 8px 14px 8px 14px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color:  #15B79E;
+
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin:10px;
+}
+
+.sku-h1{
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+
+}
+
+.img-vector{
+    width: 480px;
+    height: 12px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.sku-p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+
+.sku-button{
+    width: Hug (171px)px;
+    height: Hug (60px)px;
+    padding: 16px 28px 16px 28px;
+    gap: 12px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #15B79E;
+}
+
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color :  #15B79E;
+}
+
+
+.about-h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+}
+
+
+.about-h5{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.detail-img{
+    width: 576px;
+height: 576px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.detail-cemtent{
+    width: Fill (576px)px;
+height: Fill (576px)px;
+gap: 64px;
+opacity: 0px;
+
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.why-sku-managment{
+    width: Fixed (1,440px)px;
+    height: Hug (902px)px;
+    padding: 0px 80px 0px 80px;
+    margin:0px;
+    gap: 10px;
+    opacity: 0px;
+    background: #125D56;
+
+}
+
+.topic{
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.det-p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color :  #15B79E;
+    text-align: center;
+}
+
+
+.det-h1{
+    font-family: Poppins;
+    color:white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+
+}
+
+
+.det-h5{
+    font-family: Poppins;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.det-box{
+    margin-top:100px;
+    width: Fill (1,216px)px;
+    height: Fixed (516px)px;
+    gap: 32px;
+    opacity: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom:100px;
+}
+.det-box-content{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: Fill (384px)px;
+    height: Fill (242px)px;
+    padding: 32px 24px 32px 24px;
+    gap: 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD
+}
