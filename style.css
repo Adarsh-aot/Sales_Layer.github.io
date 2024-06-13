@@ -70,10 +70,14 @@ section{
 
 }
 
+
+.navmenu{
+    display:none;
+}
 .section-container{
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     flex-direction: row;
     align-items: center;
     padding: 10px;
@@ -385,7 +389,6 @@ opacity: 0px;
 .frame{
     width: Fill (1,280px)px;
 height: Fixed (98px)px;
-padding: 31px 32px 31px 32px;
 gap: 0px;
 justify-content: space-between;
 opacity: 0px;
@@ -393,9 +396,21 @@ opacity: 0px;
 }
 
 .footer-frame{
-    margin-top:150px;
+    margin-top:1px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+   
+}
+
+
+.footer-tab{
+    display:none;
+}
+
+@media only screen and (min-width: 850px) {
+    .frame{
+        padding: 31px 32px 31px 32px;
+    }
 }
