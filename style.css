@@ -357,6 +357,11 @@ opacity: 0px;
 }
 
 
+.content-h3{
+    align-content: center;
+    text-align: center;
+}
+
 .content-ul{
     display: flex;
     flex-direction: row;

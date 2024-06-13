@@ -133,4 +133,14 @@ opacity: 0px;
     .nav-stat{
         padding-left:0px;
     }
+
+    .bg-green{
+        margin:0px;
+        padding:0px;
+    }
+
+    body{
+        margin:0px;
+        padding:0px;
+    }
 }
