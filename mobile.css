@@ -9,36 +9,6 @@
     }
 
 
-    .drod{
-        display: block;
-    }
-
-    .deti{
-        display: none;
-    }
-
-    .clol{
-        display: none;
-    }
-
-    .line{
-        display: none;
-    }
-
-    .line:checked ~ .deti{
-        display: block;
-    }
-
-    .line:checked ~ .clol{
-        display: block;
-    }
-
-    .line:checked ~ .open{
-        display: none;
-    }
-
-    
-
 
     .sku_img{
         width: 300px;
